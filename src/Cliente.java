@@ -1,11 +1,9 @@
-public class Cliente {
+public abstract class Cliente {
     private String nome;
-    private String cpf;
     private String profissao;
 
-    public Cliente(String nome, String cpf, String profissao) {
+    public Cliente(String nome, String profissao) {
         setNome(nome);
-        setCpf(cpf);
         setProfissao(profissao);
     }
     public void setNome(String nome) {
@@ -14,14 +12,6 @@ public class Cliente {
 
     public String getNome() {
         return this.nome;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public String getCpf() {
-        return this.cpf;
     }
 
     public void setProfissao(String profissao) {

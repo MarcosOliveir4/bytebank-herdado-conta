@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Cliente cliente = new Cliente("Marcos Oliveira", "452.478.968-99", "Programador");
+        PessoaFisica cliente = new PessoaFisica("Marcos Oliveira", "Programador", "854-968-444-89");
         ContaCorrente contaCorrente = new ContaCorrente(12,45,0, cliente);
         ContaPoupanca contaPoupanca = new ContaPoupanca(12, 46, 0, cliente);
 
