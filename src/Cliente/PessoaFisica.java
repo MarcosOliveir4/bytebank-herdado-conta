@@ -1,3 +1,7 @@
+package Cliente;
+
+import Cliente.Cliente;
+
 public class PessoaFisica extends Cliente {
     private String cpf;
 
